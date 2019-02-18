@@ -1,0 +1,37 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Web page for testing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="http://web.cs.ucdavis.edu/~amenta/s18/reset.css">
+<link rel="stylesheet" type="text/css" href="testWHS.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+
+<main>
+<div id="query">
+
+<h2>PhotoQ</h2><input type="text" onkeydown="complete();" placeholder="type in tags to search" id="req-text"/><button type="button" onClick="updateImages();" id="topGoButton">Go!</button>
+</div>
+<div id="auto"></div>
+<div id="react"></div>
+
+<div id="photoDisplay">
+</div>
+
+</main>
+
+<!-- The Javascript for this page -->
+    
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="prop-types.js"></script>
+    <script src="react-photo-gallery.js"></script>
+ <script src="testWHS.js"> </script>
+</body>
+</html>

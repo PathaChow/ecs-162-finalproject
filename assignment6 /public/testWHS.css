@@ -1,0 +1,359 @@
+/* title */
+@media only screen and (max-device-width: 450px) {
+
+
+h2{
+  font-family: sans-serif;   
+  font-size: xx-large;
+  font-weight:900px;
+   text-align: left;
+   margin: 10px;
+   color: darkblue;
+}
+
+body {
+     margin: 15px;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+button.tagbutton{
+  font-size: large;
+  font-style: bold;
+  color: darkblue;
+}
+
+div.selectedControls {
+    bottom:25%;
+    top:25%;
+    display: flex;
+    position:absolute;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+div.normalControls {
+       display: none;
+}
+
+/* Photo tile - position and size will be given by PhotoGallery */
+div.tile {
+    background-color: #eee;
+    cursor: pointer;
+    overflow: hidden; 
+    float: left;
+    position: relative;
+}
+
+/* Tag styling */
+p.tagText {
+  display: flex;
+  flex-direction: row;
+      z-Index: 2;
+   background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:5px;
+}
+
+
+img {
+    display: block;
+}
+
+/* so far nothing special when image selected */
+img.normal {
+}
+
+img.selected {
+}
+
+#photo{
+  display:block;
+}
+#query{
+    display: flex;
+  background-color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 15px;
+  color: darkblue;
+
+}
+#select_tags{
+    border-width: 0.1px;
+  border:solid #eee;
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.saved_tag{
+  display: flex;
+  flex-direction: row;
+  background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:20px;
+}
+div.suggestion{
+  display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    word-break: break-alla;
+    margin: 20px;
+    justify-content: space-between;
+}
+div.tag_text{
+  z-Index: 2;
+   background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:0px;
+}
+
+div.addTag {
+   z-Index: 2;
+   background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:20px;
+}
+#req-text{
+  min-width: 40%;
+}
+#topGoButton{
+  font-size: xx-large;
+  font-weight: 900px;
+}
+
+#auto{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  z-index: 500;
+  top:25%;
+  right:25%;
+  left: 25%;
+}
+
+#select_tags{
+  display: flex;
+}
+
+#suggest{
+  font-size: large;
+  color: grey;
+  margin:3px;
+}
+
+#press{
+  font-size: large;
+  color: grey;
+  margin: 3px;
+}
+
+#actual_tags{
+    border-width: 0.1px;
+  border:solid #eee;
+}
+
+}
+
+@media only screen and (min-device-width: 450px){
+
+h2{
+  font-family: sans-serif;   
+  font-size: xx-large;
+  font-weight:900px;
+   text-align: left;
+   margin: 10px;
+   color: darkblue;
+}
+
+body {
+     margin: 15px;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+button.tagbutton{
+  font-size: large;
+  font-style: bold;
+  color: darkblue;
+}
+
+div.selectedControls {
+    bottom:25%;
+    top:25%;
+    display: flex;
+    position:absolute;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+div.normalControls {
+       display: none;
+}
+
+/* Photo tile - position and size will be given by PhotoGallery */
+div.tile {
+    background-color: #eee;
+    cursor: pointer;
+    overflow: hidden; 
+    float: left;
+    position: relative;
+}
+
+/* Tag styling */
+p.tagText {
+  display: flex;
+  flex:0 1 15%;
+  text-align: center;
+  flex-direction: row;
+      z-Index: 2;
+   background-color: #60B6D0;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:5px;
+}
+
+
+img {
+    display: block;
+}
+
+/* so far nothing special when image selected */
+img.normal {
+}
+
+img.selected {
+}
+
+#photo{
+  display:block;
+}
+#query{
+    display: flex;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 15px;
+  color: darkblue;
+
+}
+#select_tags{
+    border-width: 0.1px;
+  border:solid #eee;
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.saved_tag{
+  display: flex;
+  flex-direction: row;
+  background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:20px;
+}
+div.suggestion{
+  display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    word-break: break-alla;
+    margin: 20px;
+    justify-content: space-between;
+}
+div.tag_text{
+  z-Index: 2;
+   background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:0px;
+}
+
+div.addTag {
+   z-Index: 2;
+   background-color: #60B6D0;
+   padding: 12px;
+   border-radius: 10px;
+   color: white;
+   word-break: break-alla;
+   margin:20px;
+}
+#req-text{
+  min-width: 40%;
+}
+#topGoButton{
+  font-size: xx-large;
+  font-weight: 900px;
+}
+
+#auto{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  z-index: 500;
+  top:13%;
+  right:25%;
+  left: 25%;
+}
+
+#select_tags{
+  display: flex;
+}
+
+#suggest{
+  font-size: large;
+  color: grey;
+  margin:3px;
+}
+
+#press{
+  font-size: large;
+  color: grey;
+  margin: 3px;
+}
+
+#actual_tags{
+    border-width: 0.1px;
+  border:solid #eee;
+}
+
+}
+
+
